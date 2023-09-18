@@ -1,0 +1,11 @@
+img {
+    max-width: 40%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 5vh;
+}
+
+h1 {
+    text-align: center;
+    color: aqua;
+}

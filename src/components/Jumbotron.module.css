@@ -1,0 +1,6 @@
+.jumbotron {
+    background: url('../img/ltd-bg-4.jpg');
+    background-position: center center;
+    background-size: cover;
+    min-height: 30vh;
+}
