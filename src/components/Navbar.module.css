@@ -1,10 +1,10 @@
 /* Style the navigation bar */
 .navbar {
-    font-family: sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     width: 100%;
     background-color: #323233;
     overflow: auto;
-    padding: 0%;
+    padding: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -16,12 +16,21 @@
     display: flex;
     padding-right: 10px;
   }
+
+  .navLink {
+    padding: none;
+  }
+
+  .navLink:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+  }
   
   .navLogo {
     font-family: 'Times New Roman', Times, serif;
     color: white;
     font-style: italic;
-    display: inline;
     margin-left: 20px;
   }
   /* Navbar links */
