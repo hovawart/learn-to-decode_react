@@ -10,7 +10,7 @@ function App(props) {
       <Navbar />
       <Jumbotron>
         {/* <img src={logo} alt="logo" /> */}
-        <Header source={logo} alt="Learn to Decode Logo" text="Homepage" />
+        <Header source={logo} alt="Learn to Decode Logo" />
       </Jumbotron>
     </>
   );
