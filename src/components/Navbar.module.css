@@ -2,7 +2,7 @@
 .navbar {
     font-family: 'Times New Roman', Times, serif;
     width: 100%;
-    background-color: #323233;
+    background-color: #33373d;
     overflow: auto;
     padding: 0;
     display: flex;
@@ -19,10 +19,14 @@
 
   .navLink {
     padding: none;
+    color: lightgray;
+  }
+
+  .active {
+    color: white;
   }
 
   .navLink:hover {
-    background-color: blue;
     color: white;
     cursor: pointer;
   }
@@ -38,19 +42,18 @@
     float: left;
     text-align: center;
     padding: 12px;
-    color: white;
     text-decoration: none;
     font-size: 17px;
   }
   
   /* Navbar links on mouse-over */
   .navbar a:hover {
-    background-color: #000;
+    background-color: rgba(136, 137, 138, 0.5);
   }
   
   /* Current/active navbar link */
   .active {
-    background-color: #04AA6D;
+    color: white;
   }
   
   /* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
